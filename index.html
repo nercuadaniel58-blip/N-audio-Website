@@ -1870,15 +1870,15 @@
         </div>
       </div>
     </div>
-    <div class="contact-form reveal">
+    <form action="https://formspree.io/f/mojzkjok" method="POST" class="contact-form reveal">
       <div class="form-row">
         <div>
           <label class="form-label">Your Name</label>
-          <input type="text" class="form-input" placeholder="Juan dela Cruz" />
+          <input type="text" name="name" class="form-input" placeholder="Juan dela Cruz" required />
         </div>
         <div>
           <label class="form-label">Contact Number</label>
-          <input type="tel" class="form-input" placeholder="09XXXXXXXXX" />
+          <input type="tel" name="phone" class="form-input" placeholder="09XXXXXXXXX" required />
         </div>
       </div>
       <div class="form-group">
@@ -1911,7 +1911,7 @@
       </div>
       <button class="form-submit" onclick="handleSubmit(event)">Send Message &amp; Book Now</button>
     </div>
-  </div>
+  </form>
 </section>
 
 <!-- FOOTER -->
