@@ -1902,14 +1902,14 @@
         </div>
         <div>
           <label class="form-label">Event Date</label>
-          <input type="date" class="form-input" />
+          <input type="date" name="event_date" class="form-input" required />
         </div>
       </div>
       <div class="form-group">
         <label class="form-label">Message / Details</label>
-        <textarea class="form-textarea" placeholder="Tell us about your event — venue, expected guests, services needed..."></textarea>
+        <textarea name="message" class="form-textarea" placeholder="Tell us about your event – venue, expected guests, services needed..."></textarea>
       </div>
-      <button class="form-submit" onclick="handleSubmit(event)">Send Message &amp; Book Now</button>
+      <button type="submit" class="form-submit">Send Message &amp; Book Now</button>
     </div>
   </form>
 </section>
